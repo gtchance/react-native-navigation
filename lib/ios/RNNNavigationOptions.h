@@ -14,7 +14,7 @@
 @property (nonatomic, strong) NSNumber* topBarButtonColor;
 @property (nonatomic, strong) NSNumber* topBarTranslucent;
 @property (nonatomic, strong) NSString* setTabBadge;
-
+@property (nonatomic, strong) NSNumber* topBarNoBorder;
 
 
 -(instancetype)init;

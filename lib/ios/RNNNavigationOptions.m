@@ -21,7 +21,7 @@
 	self.topBarButtonColor = [navigationOptions objectForKey:@"topBarButtonColor"];
 	self.topBarTranslucent = [navigationOptions objectForKey:@"topBarTranslucent"];
 	self.setTabBadge = [navigationOptions objectForKey:@"setTabBadge"];
-
+	self.topBarNoBorder = [navigationOptions objectForKey:@"topBarNoBorder"];
 	return self;
 }
 
@@ -99,6 +99,16 @@
 			viewController.navigationController.navigationBar.translucent = NO;
 		}
 	}
+	}
+
+	if (self.topBarNoBorder) {
+		if ([self.topBarNoBorder boolValue]) {
+			viewController.navigationController.navigationBar
+			.shadowImage = [[UIImage alloc] init];
+		} else {
+			viewController.navigationController.navigationBar
+			.shadowImage = nil;
+		}
 	}
 }
 @end
