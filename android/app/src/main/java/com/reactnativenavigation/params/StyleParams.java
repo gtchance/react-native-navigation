@@ -120,11 +120,14 @@ public class StyleParams {
     public int titleBarTitleFontSize;
     public boolean titleBarTitleFontBold;
     public boolean titleBarTitleTextCentered;
+    public boolean titleBarSubTitleTextCentered;
     public int titleBarHeight;
     public boolean backButtonHidden;
     public Font titleBarButtonFontFamily;
+    public int titleBarTopPadding;
 
     public Color topTabTextColor;
+    public Font topTabTextFontFamily;
     public Color topTabIconColor;
     public Color selectedTopTabTextColor;
     public Color selectedTopTabIconColor;
@@ -134,6 +137,7 @@ public class StyleParams {
     public int topTabsHeight;
 
     public Color screenBackgroundColor;
+    public String rootBackgroundImageName;
 
     public boolean drawScreenAboveBottomTabs;
 
@@ -142,6 +146,7 @@ public class StyleParams {
     public int bottomTabsInitialIndex;
     public boolean bottomTabsHidden;
     public boolean bottomTabsHiddenOnScroll;
+    public boolean bottomTabsHideShadow;
     public Color bottomTabsColor;
     public Color selectedBottomTabsButtonColor;
     public Color bottomTabsButtonColor;
@@ -149,6 +154,8 @@ public class StyleParams {
     public Color bottomTabBadgeTextColor;
     public Color bottomTabBadgeBackgroundColor;
     public Font bottomTabFontFamily;
+    public Integer bottomTabFontSize;
+    public Integer bottomTabSelectedFontSize;
 
     public Color navigationBarColor;
 
